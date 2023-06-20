@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 23.5px 16px;   
+}
+button{
+    border: none;
+    background-color: white;
+    padding: 11.8px 16px;
+    text-align: center;
+}
+.button2 a{
+    text-decoration: none;
+    font-family: "Raleway", Arial, sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+button:hover{
+    background-color: #ccc;
+}
+.parent{
+    width: 100%;
+    display: flex;
+}
+.pic123{
+    width: 49.99%;
+}
+.pic123 img{
+    width: 100%;
+    margin-bottom: -12px;
+}
+.pic45 img{
+    width: 100%;
+    margin-bottom: -12px;
+}
+.pic45{
+    width: 49.99%;
+}
+.footer{
+    padding: 64px 0 64px 0;
+}
+.about h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin: 12px 0 12px 0;
+}
+.man img{
+    width: 22.2%;
+    padding: 33px 0 47px 0;
+}
+.man{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
+    font-family: "Raleway", Arial, sans-serif;
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.hesitate{
+    color: #e91e63;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 18px;
+    padding: 18px 0 18px 0;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", Arial, sans-serif;
+    padding-top: 20px;
+}
+.tab label{
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+.blank{
+    padding: 10px;
+    border: 1px solid #ccc!important
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+}
+.button .send{
+    width: 59%;
+    background-color: #616161;
+    font-size: 15px;
+    font-family: "Raleway", Arial, sans-serif;
+    color: white;
+}
+.button .send:hover{
+    background-color: #ccc;
+    color: black;
+}
+.foot{
+    padding-top: 32px;
+}
+@media only screen and (max-width:600px) {
+    .parent{
+        display: block;
+        width: 100%;
+    }
+    .pic123{
+        width: 100%;
+    }
+    .pic45{
+        width: 100%;
+    }
+    .man img{
+        width: 55%;
+    }
+    .tab .blank{
+        width: 60%;
+    }
+    .button .send{
+        width: 60%;
+    }
+}
